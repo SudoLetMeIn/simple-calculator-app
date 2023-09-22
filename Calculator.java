@@ -1,4 +1,4 @@
-package calculator;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -375,4 +375,8 @@ buttonTwo.setEnabled(false);
 buttonThree.setEnabled(false);
 buttonEqual.setEnabled(false);
 buttonZero.setEnabled(false);
-buttonDot.setEnabled(false);}}
+buttonDot.setEnabled(false);}
+public static void main(String[] args) {
+	new Calculator();
+}
+}
